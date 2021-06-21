@@ -1,0 +1,95 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.blog{
+    border: 4px solid gray;
+    border-radius: 15px;
+  
+    width: 25%;
+    height: 320px;
+    float: left;
+    margin: 0 auto;
+    
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact{
+    display:inline-flex;
+     margin-top:40px;
+     padding-top: 10px;
+     height: 400px;
+  }
+  .contact2{
+    
+    padding-top: 10px;
+     height: 400px;
+  }
+  .card2{
+  
+    background-image: url(./images/biography-bg.png);
+    
+  }
+  .card1{
+  
+    background-image: url(./images/header-bg.png);
+    
+  }
+
+h1{
+     text-transform: uppercase;
+     color: black;
+     display: block;
+     text-align: center;
+    
+    
+     
+  }
+p{
+    text-align:justify;
+    margin: 30px 15px;
+    padding-bottom: 5px;
+    
+    
+  }
+.button{
+     display: block;
+     margin: 0 auto;
+     margin-bottom: 10px;
+     text-transform: uppercase;
+    
+     background:linear-gradient(90deg,#0162c8,#55e7fc);
+     padding: 6px 15px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+   
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+
+ 
+  }
+ 
+  .button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-2px);
+  }
+  .container{
+  background-image: url(./images/footer-bg.png);
+  }
